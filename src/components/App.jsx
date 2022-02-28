@@ -10,6 +10,8 @@ import StudentsList from './looping/StudentsList';
 import ProductTable from "./looping/ProductTable";
 import EvenOdd from "./conditional/EvenOdd";
 import UserInfo from "./conditional/UserInfo";
+import DirectParent from "./communication/DirectParent";
+import IndirectParent from "./communication/IndirectParent";
 import './App.css';
 
 const App = () => 
@@ -17,6 +19,14 @@ const App = () =>
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
+            <Card title="Indirect Communication" color="#2ab7ca">
+                <IndirectParent />
+            </Card>
+
+            <Card title="Direct Communication" color="#fe8a71">
+                <DirectParent />
+            </Card>
+
             <Card title="User Info" color="#854442">
                 <UserInfo user={{name: 'usuário logado'}}></UserInfo>
                 <UserInfo></UserInfo>
