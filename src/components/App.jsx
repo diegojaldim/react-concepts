@@ -13,6 +13,7 @@ import UserInfo from "./conditional/UserInfo";
 import DirectParent from "./communication/DirectParent";
 import IndirectParent from "./communication/IndirectParent";
 import Input from "./forms/Input";
+import Counter from "./counter/Counter";
 import './App.css';
 
 const App = () => 
@@ -20,6 +21,10 @@ const App = () =>
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
+            <Card title="Componente Baseado em Classe" color="#283655">
+                <Counter initNumber={10} step={2} />
+            </Card>
+
             <Card title="Componente Controlado" color="#008744">
                 <Input />
             </Card>
