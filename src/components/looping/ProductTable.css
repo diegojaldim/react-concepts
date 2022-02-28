@@ -1,0 +1,17 @@
+.ProductTable table {
+    border: 1px solid #f9f4f4;
+    width: 100%;
+}
+
+.ProductTable thead {
+    background-color: #3da4ab;
+    color: #FFF;
+}
+
+.ProductTable tbody tr.even {
+    background-color: #f9f4f4;
+}
+
+.ProductTable tbody tr.odd {
+    background-color: #fff;
+}
