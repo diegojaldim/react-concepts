@@ -12,6 +12,7 @@ import EvenOdd from "./conditional/EvenOdd";
 import UserInfo from "./conditional/UserInfo";
 import DirectParent from "./communication/DirectParent";
 import IndirectParent from "./communication/IndirectParent";
+import Input from "./forms/Input";
 import './App.css';
 
 const App = () => 
@@ -19,6 +20,10 @@ const App = () =>
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
+            <Card title="Componente Controlado" color="#008744">
+                <Input />
+            </Card>
+            
             <Card title="Indirect Communication" color="#2ab7ca">
                 <IndirectParent />
             </Card>
