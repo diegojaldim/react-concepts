@@ -14,6 +14,7 @@ import DirectParent from "./communication/DirectParent";
 import IndirectParent from "./communication/IndirectParent";
 import Input from "./forms/Input";
 import Counter from "./counter/Counter";
+import Mega from "./mega/Mega";
 import './App.css';
 
 const App = () => 
@@ -21,6 +22,10 @@ const App = () =>
         <h1>Fundamentos React</h1>
 
         <div className="Cards">
+            <Card title="Gerador de Megasena" color="#7bc043">
+                <Mega />
+            </Card>
+            
             <Card title="Componente Baseado em Classe" color="#283655">
                 <Counter initNumber={10} step={2} />
             </Card>
